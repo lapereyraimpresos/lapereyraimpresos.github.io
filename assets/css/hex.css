@@ -1,0 +1,121 @@
+.hexagon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon-wrapper__hexagon-container {
+    width: 39vw;
+    display: flex;
+    flex-wrap: wrap;
+    transform: skew(0deg, 0deg);
+}
+
+.hexagon__outer {
+    -webkit-clip-path: polygon(0 25%,
+            50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%);
+    clip-path: polygon(0 25%,
+            50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%);
+    width: 13vw;
+    height: 15.01vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.75vw;
+    transition: all 1s;
+}
+
+.hexagon__outer:nth-child(-n + 3) {
+    margin-top: 0;
+}
+
+.hexagon__outer:nth-child(5n + 4) {
+    margin-left: 6.5vw;
+}
+
+.hexagon__inner {
+    background-color: #166571;
+    -webkit-clip-path: polygon(0 25%,
+            50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%);
+    clip-path: polygon(0 25%,
+            50% 0,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0 75%);
+    width: 94%;
+    height: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: DarkSlateGrey;
+}
+
+.hexagon__inner:hover{
+    background-color: black;
+    transition: all 1s;
+}
+
+@media (max-width: 900px) {
+    .hexagon-wrapper__hexagon-container {
+        width: 26vw;
+    }
+
+    /* reset */
+    .hexagon__outer:nth-child(-n + 3) {
+        margin-top: -3.75vw;
+    }
+
+    /* reset */
+    .hexagon__outer:nth-child(5n + 4) {
+        margin-left: 0;
+    }
+
+    .hexagon__outer:nth-child(-n + 2) {
+        margin-top: 0;
+    }
+
+    .hexagon__outer:nth-child(3n + 3) {
+        margin-left: 6.5vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 50%;
+    }
+
+    .hexagon-wrapper__hexagon-container {
+        width: 13vw;
+    }
+
+    /* reset */
+    .hexagon__outer:nth-child(-n + 2) {
+        margin-top: -3.75vw;
+    }
+
+    /* reset */
+    .hexagon__outer:nth-child(3n + 3) {
+        margin-left: 0;
+    }
+
+    .hexagon__outer:nth-child(n + 0) {
+        margin-top: 0;
+    }
+
+    .hexagon__outer:nth-child(0n + 0) {
+        margin-left: 6.5vw;
+    }
+}

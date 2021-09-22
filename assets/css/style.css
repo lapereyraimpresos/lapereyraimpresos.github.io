@@ -1,0 +1,90 @@
+  .margin-left {
+    margin-left: 2.5px;
+  }
+  
+  .btn-lp {
+    background-color: #166571;
+    border-color: #166571;
+  }
+  
+  .btn-lp:hover {
+    background-color: #25aabe !important;
+    border-color: #25aabe !important;
+    color: black !important;
+  }
+  
+  .green-hover:hover {
+    color: #166571;
+    transition: none !important;
+  }
+
+  .image_transparent {
+    background-color: transparent;
+  }
+
+  .image_transparent:hover {
+    background-color: transparent;
+  }
+  
+  .image_1 {
+    background-image: url(/1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_1:hover {
+    background-image: url(/2.jpg);
+    background-size: cover;
+  }
+
+  .image_2 {
+    background-image: url(/assets/images/otroProducto.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_2:hover {
+    background-image: url(/assets/images/bolsa.jpg);
+    background-size: cover;
+  }
+
+  .label {
+      display: inline;
+      padding: .2em .6em .3em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+  }
+
+  .label-warning {
+      background-color: #f0ad4e;
+  }
+
+  .more {
+    height: 30px !important;
+    width: 30px !important;
+    line-height: 30px !important;
+    margin-bottom: 0px !important;
+    font-size: 10px !important;
+  }
+
+  .back-page {
+    text-transform: none !important;
+    background-color: transparent !important;
+    border: 1px black solid !important;
+    font-size: 10px !important;
+  }
+
+  .hero-area-product {
+    padding-bottom: 100px !important;
+  }
+
+  .subtitle {
+    text-decoration: none !important;
+    color: #888;
+  }

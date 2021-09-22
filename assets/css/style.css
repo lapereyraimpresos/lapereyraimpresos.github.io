@@ -27,24 +27,79 @@
   }
   
   .image_1 {
-    background-image: url(/1.jpg);
+    background-image: url(/assets/images/terminaciones/laca-uv-sectorizada.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
   }
 
   .image_1:hover {
-    background-image: url(/2.jpg);
+    background-image: url(/assets/images/terminaciones/laca-uv-sectorizada.png);
     background-size: cover;
   }
 
   .image_2 {
-    background-image: url(/assets/images/otroProducto.png);
+    background-image: url(/assets/images/terminaciones/laca-texturizada.jpg);
     background-size: cover;
     background-position: center;
   }
 
   .image_2:hover {
-    background-image: url(/assets/images/bolsa.jpg);
+    background-image: url(/assets/images/terminaciones/laca-texturizada.png);
+    background-size: cover;
+  }
+
+  .image_3 {
+    background-image: url(/assets/images/terminaciones/polipropileno-brilloso.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_3:hover {
+    background-image: url(/assets/images/terminaciones/polipropileno-brilloso.png);
+    background-size: cover;
+  }
+
+  .image_4 {
+    background-image: url(/assets/images/terminaciones/polipropileno-mate.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_4:hover {
+    background-image: url(/assets/images/terminaciones/polipropileno-mate.png);
+    background-size: cover;
+  }
+
+  .image_5 {
+    background-image: url(/assets/images/terminaciones/relieve.JPG);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_5:hover {
+    background-image: url(/assets/images/terminaciones/relieve.png);
+    background-size: cover;
+  }
+
+  .image_6 {
+    background-image: url(/assets/images/terminaciones/stamping.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_6:hover {
+    background-image: url(/assets/images/terminaciones/stamping.png);
+    background-size: cover;
+  }
+
+  .image_7 {
+    background-image: url(/assets/images/terminaciones/troquelado.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image_7:hover {
+    background-image: url(/assets/images/terminaciones/troquelado.png);
     background-size: cover;
   }
 

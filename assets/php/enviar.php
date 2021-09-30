@@ -16,7 +16,7 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'francocampaiola@hotmail.com';
-$asunto = 'Contacto del sitio web | ' . $mail . " \r\n";
+$asunto = 'Contacto del sitio web | La Pereyra Impresos' . " \r\n";
 
 mail($para, $asunto, utf8_decode($message), $header);
 

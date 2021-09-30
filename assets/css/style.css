@@ -152,8 +152,34 @@
 
   .btn-product {
     color: white !important;
+    border: 3px solid #166571 !important; 
+    background-color: transparent !important;
+    font-size: 15px;
+  }
+
+  .btn-product:hover {
+    background-color: #166571 !important;
+    border: solid 3px #166571 !important;
+    color: white !important;
   }
 
   .btn-terminaciones {
-    border-color: black;
+    border-color: white;
+    border: 3px solid #166571 !important; 
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 15px;
+    cursor:default;
+  }
+
+  .btn-terminaciones-index {
+    font-size: 15px !important;
+  }
+
+  .btn-productos-index {
+    font-size: 15px !important;
+  }
+
+  .btn-enviar-index {
+    font-size: 15px !important;
   }

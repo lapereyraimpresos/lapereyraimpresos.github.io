@@ -183,3 +183,11 @@
   .btn-enviar-index {
     font-size: 15px !important;
   }
+
+  .ig-lp {
+    color: inherit;
+  }
+
+  .ig-lp:hover {
+    color: #166571 !important;
+  }

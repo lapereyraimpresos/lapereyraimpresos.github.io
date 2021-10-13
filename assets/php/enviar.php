@@ -15,7 +15,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'francocampaiola@hotmail.com';
+$para = 'info@lapereyraimpresos.com';
 $asunto = 'Contacto del sitio web | La Pereyra Impresos' . " \r\n";
 
 mail($para, $asunto, utf8_decode($message), $header);

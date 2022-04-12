@@ -191,3 +191,11 @@
   .ig-lp:hover {
     color: #166571 !important;
   }
+
+  .wp-lp {
+    color: inherit;
+  }
+
+  .wp-lp:hover {
+    color: #166571 !important;
+  }
